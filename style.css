@@ -1,0 +1,40 @@
+th,td{
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 2rem;
+    /* ancaq th,td isleyir */
+}
+ul li{
+    list-style: square;
+}
+
+
+/* rengli cerceve yaratmaq */
+.box{
+height: 200px;
+width: 400px;
+border: 2px solid black;
+margin: auto;
+font-size: 3rem;
+color: black;
+text-align: center;
+margin-top: 2rem;
+cursor: pointer;
+}
+
+
+.box:hover{
+    background-image: linear-gradient( blue,black,violet);
+    color: azure;
+}
+
+
+header{
+    background-color: rgb(70, 3, 81);
+    color: aliceblue;
+    font-style: italic;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+
+}
